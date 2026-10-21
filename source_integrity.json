@@ -1,0 +1,34 @@
+[
+  {
+    "path": "src/bounded_computation.py",
+    "source_sha256": "23ba2a8c5f2690d75b459b12396f9be4801ba60a95e974841f6bc3c37d469159"
+  },
+  {
+    "path": "src/gravity_terrain_research/__init__.py",
+    "source_sha256": "c6f5da385b4955dd5b867a7e0bf597f8a8fd04999dc6f5643e4b4407fef50afd"
+  },
+  {
+    "path": "src/gravity_terrain_research/models/__init__.py",
+    "source_sha256": "1326e97ce13c9ef63b07aaf72eb4800bdc4a2ed1e547c23c906ce04b99956d89"
+  },
+  {
+    "path": "src/gravity_terrain_research/models/adaptive_bounded.py",
+    "source_sha256": "656afaa7a13debb45ffb34ed6f54ce387e966ace86bdfb2edd88a86d1e4019e9"
+  },
+  {
+    "path": "src/gravity_terrain_research/models/candidates.py",
+    "source_sha256": "f364469ce49124d7dd0d6505d2fec4844b2ba3c6683433b76d0861608107b420"
+  },
+  {
+    "path": "src/gravity_terrain_research/models/geometry.py",
+    "source_sha256": "c947f386fd11fabf6709cb99436582d7c59466eb885dd7220c22ae77ed37901c"
+  },
+  {
+    "path": "src/gravity_terrain_research/physics/__init__.py",
+    "source_sha256": "8a30f6ab19733301ff55054bbc950ac9dfdb59e40ab7bc421a3cee36a0b78991"
+  },
+  {
+    "path": "src/gravity_terrain_research/physics/formulae.py",
+    "source_sha256": "7c8b99e9544c506f929464723ec0e12d204022dfea98dd1de4227396ae6001a2"
+  }
+]
