@@ -1,6 +1,6 @@
 # Bounded adaptive near-zone terrain correction
 
-Numerical code accompanying *Adaptive Evaluation of LiDAR-Based Near-Zone Gravity Corrections under a Station-Level Error Budget*.
+Numerical code accompanying *Adaptive Computation of LiDAR-Based Near-Zone Gravity Terrain Corrections under a Station-Level Error Budget*.
 
 The method evaluates a prescribed digital terrain model (DTM) mass distribution. Each cell contributes either an inexpensive midpoint of its gravity-response interval or its analytical rectangular-prism value. The sum of the accepted interval half-widths controls approximation to the same discrete prism model. A preliminary threshold reduces the number of widths sorted while preserving the full-sort allocation in real arithmetic.
 
@@ -59,7 +59,11 @@ The interval argument is established in real arithmetic. Double-precision paddin
 
 `full_prism_direct` evaluates the same grid as the bounded method. It is the appropriate target for checking allocation error. A calculation on a finer DTM is a separate **numerical reference**, not measured ground truth. Resolution, boundary treatment and represented masses must be documented before comparing different grids. The synthetic example uses generated 0.3 m arrays and does not contain the manuscript's 0.1 m reference DTM.
 
-Survey stations, coordinates, observations, workbooks, measured DTMs, field figures and numerical field records are confidential and are not included. Reproduction of the reported field results requires the original authorized inputs and the study's field-processing instructions. Contact the corresponding author for access; release depends on the data owner's permission and applicable confidentiality conditions. Repository access does not itself grant permission to obtain or redistribute those materials.
+### Data availability
+
+The auxiliary DEM layers are available through ASF Vertex (https://search.asf.alaska.edu/) under product identifiers AP_16346_FBS_F0340_RT1 and AP_16346_FBS_F0350_RT1. The gravity observations, associated station information, UAV LiDAR point clouds and derived DTMs, together with instructions for reproducing the field results, are available from the corresponding author, Qiang Li (liqiang_mitt@scnrig.com.cn), upon reasonable request. Requests will be answered within 10 working days. These datasets occupy several gigabytes and are supplied separately from the submission files. To protect the survey location, the spatial data are provided in a common translated horizontal coordinate system that preserves relative geometry; the original absolute coordinates are not disclosed. This is the only access restriction on these research datasets. Non-confidential geological background materials can also be provided where sharing is permitted.
+
+Code and instructions needed to reproduce the field comparisons are available from the corresponding author together with the field data. The public repository contains the numerical implementation and synthetic example; field datasets are supplied separately.
 
 ## Source layout
 
